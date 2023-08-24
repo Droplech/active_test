@@ -319,15 +319,15 @@ body.ukrlang_active .rus_text{
     width: 21%;
   }
   .popUp_content_imgList .imgList_item{
-    width: 140px;
-    height: 140px;
+    width: 80%;
+    height: auto;
   }
   .imgList_open_container{
     justify-content: center;
   }
   .imgList_open .imgList_item{
-    width: 140px;
-    height: 140px;
+    width: 80%;
+    height: auto;
   }
   .offset_block h1{
     font-size: 15px;
