@@ -270,11 +270,9 @@ body.ukrlang_active .rus_text{
     
   }
   .offset_block{
-    width: 80%;
-    
-    
+    width: 90%;
     margin: 0 auto;
-    height: 300px;
+    height: 430px;
     overflow: auto;
   }
   .popUp_content p{
