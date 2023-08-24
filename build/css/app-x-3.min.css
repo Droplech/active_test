@@ -276,7 +276,7 @@ body.ukrlang_active .rus_text{
     overflow: auto;
   }
   .popUp_content p{
-    font-size: 11px !important;
+    font-size: 14px !important;
   }
   .popUp_content h1{
     font-size: 20rem;
@@ -293,7 +293,7 @@ body.ukrlang_active .rus_text{
     width: 21%;
   }
   .popUp_content_imgList .imgList_item{
-    width: 190px;
+    width: 170px;
     height: 155px;
   }
 }
