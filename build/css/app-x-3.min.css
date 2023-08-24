@@ -252,17 +252,43 @@ body.ukrlang_active .rus_text{
   flex-wrap: wrap; 
 }
 .popUp_content_imgList .imgList_item{
-  width: 190px;
-  height: 190px;
+  width: 170px;
+  height: 170px;
   padding: 10px 10px;
 }
+
+
 .popUp_content_imgList .imgList_item img{
+  height: 100%;
+  width: 100%;
+}
+.imgList_open .imgList_item{
+  width: 170px;
+  height: 170px;
+  padding: 10px 10px;
+}
+.imgList_open .imgList_item img{
   height: 100%;
   width: 100%;
 }
 .offset_block{
   background-color: #ffff;
   padding: 20px;
+}
+.imgList_open_container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgList_open_title{
+  text-align: left !important;
+}
+.imgList_open_title span img{
+  width: 20px;
+  transition: 0.3s;
+}
+.imgList_open_title.active  span img{
+  transform: rotate(180deg);
+  transition: 0.3s;
 }
 @media screen and (max-width: 700px ) {
   .popUp_content{

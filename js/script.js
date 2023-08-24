@@ -80,7 +80,7 @@ $(document).ready(function(){
     		});
     	});
     
-    });
+});
 
 
 $('.menu_item a').click(function(){
@@ -89,10 +89,33 @@ $('.menu_item a').click(function(){
     
 })
 
+// $('.imgList_open_container').slideUp()
 
+// $('.imgList_open').click(function(){
+//     $(this).next().slideDown()
+//     $('.imgList_open_container').slideUp()
+    
+// })
+$('.imgList_open_title').removeClass('active')
+$('.imgList_open_container').slideUp()
 
+$('.imgList_open_title').click(function(){
+    $('.imgList_open_title').removeClass('active')
+    $('.imgList_open_container').slideUp()
+    $(this).addClass('active')
+    $(this).next().slideDown()
+    
+   
+       
+    
+})
 
-
+setInterval(() => {
+   if ($('.imgList_open_title').hasClass('active')) {
+    $('.imgList_open_title').removeClass('active')
+    $('.imgList_open_container').slideUp()
+   }
+}, 15000);
 
 // $('.gamb').click(function(){
 //     $('body').addClass('open_main_menu, .flow')
