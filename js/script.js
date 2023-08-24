@@ -110,12 +110,7 @@ $('.imgList_open_title').click(function(){
     
 })
 
-setInterval(() => {
-   if ($('.imgList_open_title').hasClass('active')) {
-    $('.imgList_open_title').removeClass('active')
-    $('.imgList_open_container').slideUp()
-   }
-}, 15000);
+
 
 // $('.gamb').click(function(){
 //     $('body').addClass('open_main_menu, .flow')
