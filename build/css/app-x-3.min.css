@@ -281,15 +281,33 @@ body.ukrlang_active .rus_text{
 }
 .imgList_open_title{
   text-align: left !important;
+  font-size: 20px;
 }
 .imgList_open_title span img{
-  width: 20px;
+  width: 14px;
   transition: 0.3s;
 }
 .imgList_open_title.active  span img{
   transform: rotate(180deg);
   transition: 0.3s;
 }
+.offset_block{
+  width: 90%;
+  margin: 0 auto;
+  height: 600px;
+  overflow: auto;
+}
+.header_logo svg{
+  width: 100px;
+}
+.logo_txt{
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 10px;
+  word-spacing: normal;
+
+}
+
 @media screen and (max-width: 700px ) {
   .popUp_content{
     width: 100%;
@@ -386,7 +404,7 @@ body.ukrlang_active .rus_text{
   text-align: center;
 }
 .typesWork_item img{
-  
+  object-fit: cover;
   width: 290px;
   height: 240px;
   
@@ -5694,7 +5712,7 @@ input.error {
   
   .footer_logo img {
     width: 180rem;
-    margin-top: 10rem;
+    margin-top: 0rem;
   }
   
   .footer .flex_center-center {
@@ -6014,7 +6032,7 @@ input.error {
   }
   
   .header_logo img {
-    margin-top: 5rem;
+    margin-top: 0rem;
     width: 130rem;
   }
   
@@ -6758,6 +6776,11 @@ input.error {
   .flex_center-center{
     height: auto;
   }
+  .phone_info_mob{
+    flex-direction: column;
+    place-items: center !important ;
+  }
+  .phone_info_mob
   .swiper-slide{
     height: auto !important;
   }
